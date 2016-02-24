@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
+import {ON, OFF} from './colors';
 
 var Main = function() {
   return (
-    <div style={{color: "red"}}>Hello</div>
+    <div style={{color: OFF}}>Hello</div>
   );
 }
 
